@@ -15,9 +15,11 @@ class Rubber{
 	}
 	display()
 	{
-			var rubberpos=this.body.position;		
+			var rubberpos=this.body.position;
+		        var angle= this.body.angle  
 			push()
 			translate(rubberpos.x, rubberpos.y);
+		        rotate(angle);
 			rectMode(CENTER)
 			strokeWeight(4);
 			stroke("black");
