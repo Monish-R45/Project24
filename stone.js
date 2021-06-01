@@ -19,6 +19,7 @@ class Stone{
 			var stonepos=this.body.position;		
 			push()
 			translate(stonepos.x, stonepos.y);
+		        rotate(angle);
 			rectMode(CENTER)
 			strokeWeight(4);
 			stroke("black");
@@ -27,3 +28,4 @@ class Stone{
 
 			pop()
     }
+}
