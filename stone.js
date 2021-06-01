@@ -19,7 +19,7 @@ class Stone{
 			var stonepos=this.body.position;
 		        var angle = this.body.angle
 			push()
-			translate(stonepos.x, stonepos.y
+			translate(stonepos.x, stonepos.y);
 		        rotate(angle);
 			rectMode(CENTER)
 			strokeWeight(4);
